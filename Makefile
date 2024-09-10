@@ -1,4 +1,3 @@
-THEOS_DEVICE_IP = 10.0.0.207
 TARGET := iphone:clang:latest:11.0
 INSTALL_TARGET_PROCESSES = Twitter
 
