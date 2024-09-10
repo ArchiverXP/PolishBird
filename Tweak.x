@@ -10,7 +10,7 @@
 -(id)infoDictionary {
 	NSMutableDictionary *info = [%orig mutableCopy];
     	info[@"CFBundleVersion"] = @"19.00";
-	NSLog(@"info: %@", info);
+	//uncomment for debug NSLog(@"info: %@", info);
     	return info;
 }
 
